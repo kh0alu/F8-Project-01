@@ -41,14 +41,23 @@ a {
     background: #e6f0ff;
     height: 100vh;
     position: relative;
+    margin-top: -100px;
+    padding-top: 38px;
 }
 
 .navbar {
     display: flex;
-    padding-top: 38px;
     align-items: center;
+}
+
+.sticky-nav {
+    margin-top: 38px;
+    background: #e6f0ff;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
+    z-index: 10;
+    padding: 12px 0;
 }
 
 .navbar .item-list ul {
@@ -68,17 +77,17 @@ a {
     text-decoration: underline;
 }
 
-.header .actions {
+.navbar .actions {
     margin-left: auto;
 }
 
-.header .actions .signin {
+.navbar .actions .signin {
     font-weight: 500;
     font-size: 1.4rem;
     color: #0f1b4c;
 }
 
-.header .actions .signup {
+.navbar .actions .signup {
     display: inline-block;
     margin-left: 18px;
     height: 40px;
