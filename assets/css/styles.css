@@ -163,10 +163,13 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 54px 0 160px;
+    margin: 54px 0 60px;
 }
 
 /* Services */
+.services {
+    padding-top: 100px;
+}
 .services .info .title::before {
     content: "";
     position: absolute;
@@ -243,7 +246,7 @@ a {
     background: #f5fafe;
 }
 .features .content {
-    padding: 110px 0;
+    padding: 110px 0 50px;
 }
 
 .features .row {
@@ -345,7 +348,8 @@ a {
 
 /* Resources */
 .resources {
-    margin-bottom: 110px;
+    margin-bottom: 50px;
+    padding-top: 60px;
 }
 
 .resources .row {
@@ -465,7 +469,7 @@ a {
 .contact-content {
     position: relative;
     height: 410px;
-    padding-top: 40px;
+    padding-top: 100px;
 }
 
 .contact {
@@ -509,7 +513,7 @@ a {
 
 .contact img {
     position: absolute;
-    top: 2px;
+    top: 62px;
     right: 220px;
 }
 
